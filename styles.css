@@ -1,0 +1,85 @@
+/* Establecer el fondo negro para toda la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilo para los contenedores principales */
+.container {
+    background-color: #333; /* Fondo gris oscuro para los contenedores */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+}
+
+/* Títulos */
+h1 {
+    font-size: 24px;
+    color: #00FF00; /* Verde claro para el título */
+}
+
+/* Estilo para las etiquetas de los formularios */
+label {
+    font-size: 14px;
+    color: #ddd;
+    display: block;
+    margin: 8px 0 4px;
+}
+
+/* Estilo para los campos de entrada */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #222;
+    color: #fff;
+}
+
+/* Estilo para los botones */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #66FF66; /* Verde claro */
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #77FF77; /* Un verde más claro cuando se pasa el mouse */
+}
+
+/* Estilo para los contenedores del formulario de retiro */
+#formularioRetiroContainer {
+    margin-top: 20px;
+}
+
+/* Estilo para el saldo */
+.balance {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #fff;
+}
+
+/* Estilo para el botón de cerrar sesión */
+#cerrarSesion {
+    background-color: #FF3333; /* Rojo para cerrar sesión */
+}
+
+/* Hover para cerrar sesión */
+#cerrarSesion:hover {
+    background-color: #FF6666;
+}
